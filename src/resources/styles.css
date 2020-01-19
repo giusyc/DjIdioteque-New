@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    padding: 10px 0px;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo{
+    flex-grow: 1;
+}
+
+header .header_logo_name {
+    font-family: 'Bangers', cursive;
+    font-size: 36px;
+}
+
+.sideList {
+    font-family: 'Bangers', cursive;
+    font-size: 22px;
+}
