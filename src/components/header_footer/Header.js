@@ -51,7 +51,7 @@ class Header extends Component {
             >
             <ToolBar>
                 <div className="header_logo">
-                    <div className="header_logo_name">DJ Idioteque</div>
+                    <div className="header_logo_name">Idioteque</div>
                 </div>
                 <IconButton
                     aria-label="Menu"

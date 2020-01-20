@@ -25,3 +25,30 @@ header .header_logo_name {
     font-family: 'Bangers', cursive;
     font-size: 22px;
 }
+
+/*====================
+        CARROUSEL
+======================*/
+
+
+.carousel_wrapper {
+    height:800px;
+    overflow: hidden;
+    background-color: black;
+}
+
+.carousel_image {
+    
+    background-size: cover !important;
+}
+
+
+/*====================
+        SOUNDCLOUD
+======================*/
+
+.soundcloud_wrapper {
+    width: 500px;
+    margin:0 auto;
+    padding: 50px;
+}
