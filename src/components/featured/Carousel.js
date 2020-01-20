@@ -49,7 +49,7 @@ const Carousel = () => {
 
             <div>
                 <div
-                    className="carousel_image"
+                    className="carousel_image_three"
                     style={{
                         background:`url(${slide_three})`,
                         height:`${window.innerHeight}px`

@@ -32,7 +32,7 @@ header .header_logo_name {
 
 
 .carousel_wrapper {
-    height:800px;
+    height: 800px;
     overflow: hidden;
     background-color: black;
 }
@@ -41,6 +41,11 @@ header .header_logo_name {
     
     background-size: cover !important;
 }
+
+.carousel_image_three {
+    background-size: contain;
+}
+
 
 
 /*====================
