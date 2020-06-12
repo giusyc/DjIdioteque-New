@@ -105,6 +105,7 @@ footer {
     font-size: 30px;
     font-family: 'Bangers', cursive;
     color:#ffffff;
+    position: fixed;
 }
 
 footer .footer_copyright {
