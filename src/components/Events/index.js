@@ -1,11 +1,13 @@
 import React from 'react';
-import Immerse from './Immerse';
+import Events from './Events';
 
 
 const Description = () => {
     return (
-        <div className="highlight_wrapper">
-        <Immerse/>
+        <div className="wrapper">
+        	<div className="content">
+        		<Events/>
+        	</div>
             
         </div>
     );
