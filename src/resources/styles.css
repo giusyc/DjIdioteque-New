@@ -4,6 +4,7 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: black;
 }
 
 
@@ -82,14 +83,13 @@ header .header_logo_name {
 
 
 
-.center_wrapper .highlight_description {
+.highlight_description {
     font-family: 'Bangers', cursive;
     line-height: 30px;
     font-size: 18px;
     font-weight: 300;
     color: #F4F4F4;
-    border-bottom: 1px solid #dddddd;
-    padding: 30px;
+    padding: 2em 2em 2em 2em;
 }
 
 
@@ -102,7 +102,7 @@ header .header_logo_name {
 footer {
     padding: 30px 0px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Bangers', cursive;
     color:#ffffff;
 }
@@ -118,4 +118,20 @@ footer .footer_copyright {
 .social_media {
     padding: 4px;
 }
+
+/*====================
+        FOOTER
+======================*/
+
+.wrapper {
+    height: 30em;
+    border-bottom: 1px solid #dddddd;
+}
+
+.content {
+    height: auto;
+    text-align: center;
+}
+
+
 

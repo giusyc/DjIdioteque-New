@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { Element } from 'react-scroll';
 import './resources/styles.css';
 import Header from './components/header_footer/Header';
+import About from './components/About/About.js';
 import Featured from './components/featured';
 import Soundcloud from './components/Soundcloud';
-import ImmerseUK from './components/ImmerseUK';
 import Footer from './components/header_footer/Footer';
 
 class App extends Component {
@@ -17,15 +17,18 @@ class App extends Component {
       }}    
     >
      <Header/>
-      <Element name="Featured">
-     <Featured/>
+     <Element name="Featured">
+        <Featured/>
      </Element>
-      <Element name="Soundcloud">
-     <Soundcloud/>
+
+     <Element name="Soundcloud">
+        <Soundcloud/>
      </Element>
-      <Element name="ImmerseUK">
-     <ImmerseUK/>
+
+     <Element name="About">
+        <About/>
      </Element>
+
      <Footer/>
     </div>
   );
