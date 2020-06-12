@@ -5,6 +5,7 @@ import { SocialIcon } from 'react-social-icons';
 const Footer = () => {
     return (
         <footer className="bck_black">
+        <div className="content">
         <Fade delay={500}>
         <div className="font_righteous footer_logo_venue">Idioteque</div>
         <div className="footer_copyright">
@@ -18,6 +19,7 @@ const Footer = () => {
         
         
         </Fade>
+        </div>
             
         </footer>
     );
